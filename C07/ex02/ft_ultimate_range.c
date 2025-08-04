@@ -28,7 +28,7 @@ int	ft_ultimate_range(int **range, int min, int max)
 	size = (max - min);
 	arr = (int *)malloc(sizeof(int) * size);
 	if (arr == NULL)
-		return (NULL);
+		return (0);
 	while (min < max)
 	{
 		arr[i] = min;
